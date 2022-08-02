@@ -26,6 +26,6 @@ stages:
       - script: |
           pip install truffleHog
           echo "abcd"
-          trufflehog --json
+          trufflehog --json https://github.com/anshul249/trufflehog-1
           ls -la
         displayName: Install TruffleHog
